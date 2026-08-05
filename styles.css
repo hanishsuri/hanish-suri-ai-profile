@@ -14,3 +14,7 @@
 .career-card .work-image{padding:10px;background:#02091c}.career-card .work-image img,.strategy-card .work-image img{width:100%;height:100%;object-fit:contain;border-radius:8px}.strategy-card .work-image{padding:10px;background:#eef7ff}.upcoming-tag{background:#e8fff7;color:#087a5a;text-transform:uppercase;letter-spacing:.1em}
 .work-actions{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.work-link{display:inline-flex;align-items:center;gap:6px;margin-top:19px;color:#1f66d1;text-decoration:none;font-size:11px;font-weight:800}.work-link b{font-size:14px;transition:transform .2s}.work-link:hover{color:#0b3f92}.work-link:hover b{transform:translate(2px,-2px)}
 @media(max-width:640px){.work-card{grid-template-columns:1fr}.work-image{height:310px}.career-card .work-image{padding:8px}.work-copy{padding:26px 24px}.work-number{font-size:40px}}
+
+/* Circular About portrait */
+.author img{width:96px;height:96px;aspect-ratio:1;border:4px solid #2f7df6;border-radius:50%;object-fit:cover;object-position:center 22%;box-shadow:0 0 0 5px #e3efff,0 10px 24px rgba(36,107,254,.2)}
+@media(max-width:640px){.author img{width:76px;height:76px;border-width:3px;box-shadow:0 0 0 4px #e3efff,0 8px 18px rgba(36,107,254,.18)}}
